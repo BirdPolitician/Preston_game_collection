@@ -1,0 +1,34 @@
+name: preston_game_collection
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  auto_size_text: ^3.0.0
+  expandable: ^5.0.1
+  expandable_text: ^2.3.0
+  flutter:
+    sdk: flutter
+  google_fonts: ^5.1.0
+  hive: ^2.0.4
+  hive_flutter: ^1.1.0
+  html: ^0.15.4
+  http: ^1.1.0
+  image_picker: ^1.0.2
+  intl: ^0.18.1
+  sprintf: ^7.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  hive_generator: ^1.1.1
+  build_runner: ^2.1.5
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/mario_placeholder.png
